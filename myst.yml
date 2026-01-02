@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 84ac2d47-15ef-43b8-af9e-68b2ddaad18f
-  title: MSE 3302 Sensors and Actuators
+  title: Sensors and Actuators
   description: Supplemental materials for MSE 3302B at Western University, Canada
   keywords:
     - Sensor
@@ -25,14 +25,14 @@ project:
       template: lapreprint-typst
       articles: 
         - docs/000/Abstract.md
-      #options: 
-      #  logo: logo.png
+      options: 
+        logo: logo.png
       publisheddate: 2026-01-01
       output: _build/exports/myst_typst/MSE3302B.pdf
 site:
   template: book-theme
   parts:
     primary_sidebar_footer: primary-sidebar-footer.md
-  # options:
+  options:
   #  favicon: favicon.ico
-  #  logo: site_logo.png
+    logo: logo.png

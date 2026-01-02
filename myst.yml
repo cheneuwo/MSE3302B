@@ -25,10 +25,10 @@ project:
       template: lapreprint-typst
       articles: 
         - docs/000/Abstract.md
-      options: 
-        logo: logo.png
+      #options: 
+      #  logo: logo.png
       publisheddate: 2026-01-01
-      output: _build/exports/myst_typst/AISE4025.pdf
+      output: _build/exports/myst_typst/MSE3302B.pdf
 site:
   template: book-theme
   parts:

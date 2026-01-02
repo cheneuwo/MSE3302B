@@ -19,12 +19,14 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: docs/000/Abstract.md
+    - file: docs/000/Introduction.md
     
   exports:
     - format: pdf
       template: lapreprint-typst
       articles: 
         - docs/000/Abstract.md
+        - docs/000/Introduction.md
       options: 
         logo: logo.png
       publisheddate: 2026-01-01

@@ -48,3 +48,33 @@ Optical encoders convert motion into a sequence of digital pulses. These pulses 
 
 The principle of the optical encoder is simple: generate an electrical pulse each time light passes through one of the many slots in a rotating code wheel, image courtesy [here](https://www.sensortips.com/featured/what-are-rotary-optical-rotary-encoders/), accessed 2026-01-01.
 ```
+
+## Accelerometers
+
+An <wiki:Accelerometer> is a device that measures the <wiki:Proper_acceleration> of an object. An acceleration is experienced by an object due to motion, vibration, and impact events.
+
+### Seismic Mass Accelerometer
+A Seismic Mass Accelerometer uses a suspended sening mass within a house, which moves relative to the casing during acceleration, allowing measurement of vibration or motion. A displacement transducer senses the relative motion, and acceleration is determined through frequency response analysis.
+
+```{figure} ./../images/fig_seismic_mass_accelerometer.png
+:label: Seismic_Mass_Accelerometer
+:alt: A depiction of a seismic mass accelerometer
+:align: center
+:width: 80%
+
+A depiction of a seismic mass accelerometer.
+```
+The natural frequency of a seismic mass accelerometer is relatively low, chich limits its use to low and medium frequency applications.
+
+### Piezoelectric Accelerometer
+
+<wiki:Piezoelectric_ccelerometer> uses a piezoelectric crystal whose deformation results in charge polarization across the crystal. It is suitable for high-frequency applications. 
+
+```{figure} ./../images/fig_piezoelectric_accelerometer.png
+:label: Piezoelectric_Accelerometer
+:alt: A depiction of a piezoelectric accelerometer
+:align: center
+:width: 80%
+
+A depiction of a piezoelectric accelerometer.
+```

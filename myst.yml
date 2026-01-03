@@ -20,6 +20,7 @@ project:
   toc:
     - file: docs/000/Abstract.md
     - file: docs/000/Introduction.md
+    - file: docs/000/Terminology.md
     
   exports:
     - format: pdf
@@ -27,6 +28,7 @@ project:
       articles: 
         - docs/000/Abstract.md
         - docs/000/Introduction.md
+        - docs/000/Terminology.md
       options: 
         logo: logo.png
       publisheddate: 2026-01-01

@@ -210,7 +210,7 @@ A <wiki:Photodiode> is a semiconductor diode sensitive to photo radiation, basic
 A depiction of photodiode, image courtesy of Wikimedia [here](https://commons.wikimedia.org/wiki/File:Fotodio.jpg), accessed on January 5, 2026.
 ```
 
-```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Photodiode_symbol.svg/2560px-Photodiode_symbol.svg.png
+```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Photodiode_symbol.svg/330px-Photodiode_symbol.svg.png
 :label: fig_photodiode_symbol
 :alt: The electronic symbol for a photodiode
 :align: center
@@ -242,3 +242,10 @@ The electronic symbol for a photodiode, image courtesy of Wikimedia [here](https
 ```
 
 # Actuators
+
+An <wiki:actuator> is a device that accepts a control command (typically in the form of an electrical signal), and produces a change in the physical system by generating force, motion, heat, flow, etc. In other word, actuators are essentially the *muscle* behind a mechatronic system.
+
+## 
+[Electromechanical actuators](https://en.wikipedia.org/wiki/Actuator#Electromechanical) convert electrical energy into mechanical motion. The most common example is an **electric motor**.
+
+### Direct Current ({term}`DC`) Electric Motors

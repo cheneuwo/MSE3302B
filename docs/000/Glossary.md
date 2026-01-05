@@ -1,6 +1,10 @@
 # Glossary
 
 :::{glossary}
+
+DC
+: Direct Current 
+
 FSR
 : Force-Sensing Resistor
 

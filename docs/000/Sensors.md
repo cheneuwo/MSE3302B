@@ -245,7 +245,47 @@ The electronic symbol for a photodiode, image courtesy of Wikimedia [here](https
 
 An <wiki:actuator> is a device that accepts a control command (typically in the form of an electrical signal), and produces a change in the physical system by generating force, motion, heat, flow, etc. In other word, actuators are essentially the *muscle* behind a mechatronic system.
 
-## 
+## Electromechanical Actuators
+
 [Electromechanical actuators](https://en.wikipedia.org/wiki/Actuator#Electromechanical) convert electrical energy into mechanical motion. The most common example is an **electric motor**.
 
 ### Direct Current ({term}`DC`) Electric Motors
+
+A <wiki:DC_motor> motor operates on {term}`DC` voltage. {term}`DC` motor speed and torque can be easily controlled simply by changing the voltage. However, {term}`DC` power supply is required, and more maintenance is needed as compared to <wiki:Alternating_current> ({term}`AC`) motor.
+
+```{figure} https://res.utmel.com/Images/Article/2239b59e-8e4e-48d1-8e3a-7987e017d3c3.png
+:label: fig_DC_motor
+:alt: A depiction of a DC motor
+:align: center
+:width: 80%
+
+A depiction of a DC motor, image courtesy [here](https://www.utmel.com/blog/categories/motors/types-working-and-selection-of-dc-motor), accessed on January 5, 2026.
+```
+### Alternating Current ({term}`AC`) Electric Motors
+
+An <wiki:AC_motor> motor uses standard {term}`AC` power, they are simpler and less expensive as compared to {term}`DC` motors. However, they are *relatively* difficult to control.
+
+
+```{figure} https://res.utmel.com/Images/Article/e829b1fa-d3d2-4ec8-a7e8-7785b2170879.jpg
+:label: fig_AC_motor
+:alt: A depiction of a AC motor
+:align: center
+:width: 80%
+
+A depiction of a AC motor, image courtesy [here](https://www.utmel.com/blog/categories/motors/introduction-to-ac-motor), accessed on January 5, 2026.
+```
+
+### Stepper Motors
+
+A <wiki:Stepper_motor> is a discrete (incremental) positioning device that moves one step at a time for each pulse command input. They are mostly used in lower power applications
+
+```{figure} https://upload.wikimedia.org/wikipedia/commons/c/cf/Stepper_motor.jpg
+:label: fig_phototransistor_symbol
+:alt: A stepper motor
+:align: center
+:width: 80%
+
+A stepper motor, image courtesy of Wikimedia [here](https://commons.wikimedia.org/wiki/File:Stepper_motor.jpg), accessed on January 5, 2026.
+```
+
+## Electromagnetic Actuators

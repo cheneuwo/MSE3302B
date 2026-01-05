@@ -2,6 +2,9 @@
 
 :::{glossary}
 
+AC
+: Alternating Current
+
 DC
 : Direct Current 
 

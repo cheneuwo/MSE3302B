@@ -14,6 +14,9 @@ FSR
 IC
 : Integrated Circuit
 
+LTI
+: Linear Time-Invariant
+
 LVDT
 : Linear Variable Differential Transformer
 

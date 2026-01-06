@@ -18,18 +18,24 @@ project:
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
-    - file: docs/000/Glossary.md
     - file: docs/000/Abstract.md
-    - file: docs/000/Introduction.md
-    - file: docs/000/Terminology.md
-    - file: docs/000/Transducers.md
+    - title: Getting Started
+      children:
+        - file: docs/000/Glossary.md
+        - file: docs/000/Introduction.md
+        - file: docs/000/Terminology.md
+        - file: docs/000/Transducers.md
+    - title: Performance Criteria
+      children:
+        - file: docs/001/Math_primers.md
+        - file: docs/001/Math_e.ipynb
     
   exports:
     - format: pdf
       template: lapreprint-typst
       articles: 
-        - docs/000/Glossary.md
         - docs/000/Abstract.md
+        - docs/000/Glossary.md
         - docs/000/Introduction.md
         - docs/000/Terminology.md
         - docs/000/Transducers.md

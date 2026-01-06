@@ -268,11 +268,11 @@ An <wiki:AC_motor> motor uses standard {term}`AC` power, they are simpler and le
 
 ```{figure} https://res.utmel.com/Images/Article/e829b1fa-d3d2-4ec8-a7e8-7785b2170879.jpg
 :label: fig_AC_motor
-:alt: A depiction of a AC motor
+:alt: A depiction of an AC motor
 :align: center
 :width: 80%
 
-A depiction of a AC motor, image courtesy [here](https://www.utmel.com/blog/categories/motors/introduction-to-ac-motor), accessed on January 5, 2026.
+A depiction of an AC motor, image courtesy [here](https://www.utmel.com/blog/categories/motors/introduction-to-ac-motor), accessed on January 5, 2026.
 ```
 
 ### Stepper Motors
@@ -280,7 +280,7 @@ A depiction of a AC motor, image courtesy [here](https://www.utmel.com/blog/cate
 A <wiki:Stepper_motor> is a discrete (incremental) positioning device that moves one step at a time for each pulse command input. They are mostly used in lower power applications
 
 ```{figure} https://upload.wikimedia.org/wikipedia/commons/c/cf/Stepper_motor.jpg
-:label: fig_phototransistor_symbol
+:label: fig_stepper_motor
 :alt: A stepper motor
 :align: center
 :width: 80%
@@ -289,3 +289,74 @@ A stepper motor, image courtesy of Wikimedia [here](https://commons.wikimedia.or
 ```
 
 ## Electromagnetic Actuators
+
+<wiki:Electromagnet> is a magnet in which the magnetic field is produced by an electric current. Electromagnets are frequently used in applications that require large forces.
+
+```{figure} https://upload.wikimedia.org/wikipedia/commons/4/41/Simple_electromagnet2.gif
+:label: fig_electromagnet
+:alt: A simple electromagnet
+:align: center
+:width: 80%
+
+A simple electromagnet consisting of a coil of wire wrapped around an iron core. A core of ferromagnetic material like iron serves to increase the magnetic field created. The strength of the magnetic field generated is proportional to the amount of current through the winding, image courtesy of Wikimedia [here](https://commons.wikimedia.org/wiki/File:Simple_electromagnet2.gif), accessed on January 5, 2026.
+```
+
+### Solenoid
+ 
+[Solenoid](https://en.wikipedia.org/wiki/Solenoid_(engineering)) consists of a coil and a movable iron core. When the coil is energized, a magnetic field is established that generates the force to pull or push the iron core. Solenoids are the most common electromagnetic actuators.
+
+
+```{figure} https://instrumentationtools.com/wp-content/uploads/2017/09/instrumentationtools.com_electric-solenoid-actuators-principle.jpg
+:label: fig_Solenoid_actuator
+:alt: A depiction of a solenoid actuator
+:align: center
+:width: 80%
+
+A depiction of a solenoid actuator. The coil is connected to an external current supply. The spring rests on the armature to force it downward. The armature moves vertically inside the coil and transmits its motion through the stem to the valve. Image courtesy [here](https://instrumentationtools.com/electric-solenoid-actuator/), accessed on January 5, 2026.
+```
+
+### Electromechanical Relay
+
+An [Electromechanical Relay](https://en.wikipedia.org/wiki/Relay) is a solenoid used to make or break mechanical contact between electrical leads. Applications include power switches and electromechanical control elements. A relay performs a function similar to a power transistor switch circuit but has the capability to switch much larger currents.
+
+```{figure} https://upload.wikimedia.org/wikipedia/commons/a/a0/Relay_principle_horizontal_new.gif
+:label: fig_electromechanic_relay
+:alt: A Relay
+:align: center
+:width: 80%
+
+Electromechanical relay principle, image courtesy of Wikimedia [here](https://commons.wikimedia.org/wiki/File:Relay_principle_horizontal_new.gif), accessed on January 5, 2026.
+```
+
+## Fluidic Actuators
+
+### Hydraulic Actuators
+
+A [Hydraulic Actuator](https://en.wikipedia.org/wiki/Actuator#Hydraulic) usually uses pressurized oil. they can produce very large force coupled with a large motion in a cost-effective manner. Disadvantages include nonlinearities and leakage problems
+
+```{figure} https://cdn.prod.website-files.com/617bfbfccfd67c8d5ae89950/6710bfb895543e42182fbbc1_6710bfad922c5fede41d9245_what-is-a-hydraulic-cylinder.jpeg
+:label: fig_hydraulic_actuator
+:alt: A hydraulic actuator
+:align: center
+:width: 80%
+
+A hydraulic actuator, image courtesy of Wikimedia [here](https://cylindersinc.com/blog/what-is-a-hydraulic-cylinder), accessed on January 5, 2026.
+```
+
+### Pneumatic Actuators
+
+A [pneumatic actuator](https://en.wikipedia.org/wiki/Actuator#Pneumatic) uses air under pressure. They are mostly suitable for applications that require relatively low forces and fast movements. Disadvantages include nonlinear behaviour and difficulties with precise position control.
+
+
+```{figure} https://psiautomation.com.au/wp-content/uploads/2022/10/Linear-Actuator-Demonstration-3-1024x686.png
+:label: fig_Pneumatic_actuator
+:alt: A penumatic actuator
+:align: center
+:width: 80%
+
+A pneumatic actuator, image courtesy of Wikimedia [here](https://psiautomation.com.au/all-about-pneumatic-actuators/), accessed on January 5, 2026.
+```
+
+## Shame Memory Alloy ({term}`SMA`) Actuators
+
+<wiki:Shape-memory_alloy> ({term}`SMA`) are alloys of nickel and titanium. At room temperature, the alloy is plastic can be easily manipulated. If heated above some critical temperature, the alloy recovers its original shape.

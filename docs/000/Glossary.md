@@ -22,5 +22,8 @@ PTC
 
 SGLC
 : Strain Gauge Load Cell
+
+SMA
+: Shame Memory Alloy
 :::
 

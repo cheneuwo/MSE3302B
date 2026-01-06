@@ -22,7 +22,7 @@ project:
     - file: docs/000/Abstract.md
     - file: docs/000/Introduction.md
     - file: docs/000/Terminology.md
-    - file: docs/000/Sensors.md
+    - file: docs/000/Transducers.md
     
   exports:
     - format: pdf
@@ -32,7 +32,7 @@ project:
         - docs/000/Abstract.md
         - docs/000/Introduction.md
         - docs/000/Terminology.md
-        - docs/000/Sensors.md
+        - docs/000/Transducers.md
       options: 
         logo: logo.png
       publisheddate: 2026-01-01

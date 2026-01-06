@@ -11,8 +11,14 @@ DC
 FSR
 : Force-Sensing Resistor
 
+IC
+: Integrated Circuit
+
 LVDT
 : Linear Variable Differential Transformer
+
+MEMS
+: Micro Electro Mechanical Systems
 
 NTC
 : Negative Temperature Coefficient

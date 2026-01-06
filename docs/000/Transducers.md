@@ -1,6 +1,8 @@
-# Sensors
+# Transducers
 
-Without going into the physical principles of how these sensors work, here is a brief overview of a variety of sensors that we may encounter.
+Without going into the physical principles of how these sensors work, here is a brief overview of a variety of sensors and actuators that we may encounter.
+
+# Sensors
 
 ## Position Sensors
 
@@ -38,7 +40,6 @@ An implementation of Hall Effect position sensors involves attaching a small per
 ### Optical Encoders
 
 Optical encoders convert motion into a sequence of digital pulses. These pulses can be converted to relative or absolute position measurements. For example, an optical <wiki:Rotary_encoder> uses a light shining onto a <wiki:Photodiode> through slits in a disc. Optical encoders are sensitive to dust.
-
 
 ```{figure} https://www.analogictips.com/wp-content/uploads/2018/02/WHTH_FAQ_Analog_rotary-encoder_Pt1_Fig1.jpg
 :label: fig_Optical_Encoder
@@ -360,3 +361,33 @@ A pneumatic actuator, image courtesy of Wikimedia [here](https://psiautomation.c
 ## Shame Memory Alloy ({term}`SMA`) Actuators
 
 <wiki:Shape-memory_alloy> ({term}`SMA`) are alloys of nickel and titanium. At room temperature, the alloy is plastic can be easily manipulated. If heated above some critical temperature, the alloy recovers its original shape.
+
+The field of {term}`SMA` actuators is an active research area, with a number of solutions developed, in particular, for medical robotic applications.
+
+```{figure} https://cdn.comsol.com/wordpress/2018/05/sma-deformation-process.png
+:label: fig_SMA
+:alt: Shape Memory Alloy
+:align: center
+:width: 80%
+
+The basic phase transformation process in a shape-memory alloy, image courtesy of Wikimedia [here](https://www.comsol.com/blogs/the-elephants-of-materials-science-smas-never-forget-their-shape), accessed on January 5, 2026.
+```
+The main **disadvantages** of {term}`SMA` include relatively low force and torques, limited displacement, slow response, and high costs. On the other hand, {term}`SMA` actuators constructed from various alloys can exhibit subtle but complex, controlled deformations.
+
+## Micro Electro Mechanical Systems ({term}`MEMS`)
+
+<wiki:MEMS> are very small-size (usually $\le 1mm$) electro-mechanical devices that are manufactured using standard micro-electronic processes.
+- In contrast with <wiki:Integrated_circuit> ({term}`IC`), {term}`MEMS` *include* mechanical components, i.e., mechanically moving parts.
+- Ideally, {term}`MEMS` integrate sensors and actuators with electronic components.
+- **Advantages** include low cost and small-soze.
+- {term}`MEMS` is currently an area of active research.
+
+
+```{figure} https://www.concordia.ca/cunews/offices/vprgs/sgs/public-scholars-19/2019/05/28/mems-the-king-of-technology/_jcr_content/parsys/image.img.png/1558970651717.png
+:label: fig_MEMS
+:alt: Micro Electro Mechanical Systems
+:align: center
+:width: 80%
+
+An example of MEMS, image courtesy of Wikimedia [here](https://www.concordia.ca/cunews/offices/vprgs/sgs/public-scholars-19/2019/05/28/mems-the-king-of-technology.html), accessed on January 5, 2026.
+```
